@@ -1,0 +1,18 @@
+.ipt {
+  placeholder-color: red;
+}
+.ipt::-webkit-input-placeholder {
+  color: red;
+}
+.ipt:-moz-placeholder {
+  color: red;
+}
+.ipt::-moz-placeholder {
+  color: red;
+}
+.ipt:-ms-input-placeholder {
+  color: red;
+}
+.ipt:placeholder-shown {
+  color: red;
+}

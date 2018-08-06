@@ -1,0 +1,40 @@
+<template>
+	<scroller class="wrapper">
+		<marquee marqueelist="{{marqueeList}}" timefn="ease-out" duration="{{duration}}" lineheight="50" fontsize="40" interval="{{interval}}" firsttext="{{text}}:{{marqueeList[0]}}" class="marquee">
+			<text repeat="list in marqueeList" class="text" style="color:{{color}}">{{text}}:{{list}}</text>
+		</marquee>
+		<text>一个有十个数据,0~9</text>
+	</scroller>
+</template>
+
+<style>
+.wrapper { 
+	width: 750; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+	align-items: center; 
+	justify-content: center;
+}
+.text{
+	font-size:40;
+	line-height: 50;
+}
+</style>
+
+<script>
+require("./components/marquee.we");
+	module.exports = {
+		data: {
+			color: '#ff0000',
+			text: 'this is a test',
+			marqueeList:[
+				0,1,2,3,4,5,6,7,8,9
+			],
+			interval:2000,
+			duration:500
+		}
+	}
+</script>

@@ -1,0 +1,6 @@
+.txt {
+  lines: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}

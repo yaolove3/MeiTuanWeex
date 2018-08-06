@@ -1,0 +1,15 @@
+.indicator {
+  item-color: red;
+  item-selected-color: yellow;
+  item-size: 32px;
+}
+.indicator .weex-indicator-item {
+  width: 32px;
+  height: 32px;
+}
+.indicator .weex-indicator-item.weex-indicator-item-active {
+  background-color: yellow;
+}
+.indicator .weex-indicator-item {
+  background-color: red;
+}

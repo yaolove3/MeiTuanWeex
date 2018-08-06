@@ -1,0 +1,3 @@
+<template>
+  <cell></cell>
+</template>
