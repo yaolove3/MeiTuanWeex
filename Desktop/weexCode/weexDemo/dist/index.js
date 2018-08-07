@@ -5787,7 +5787,23 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticStyle: {
       color: "white"
     }
-  }, [_vm._v("地图")])])])])])
+  }, [_vm._v("地图")])])])]), _c('scroller', {
+    staticStyle: {
+      backgroundColor: "#e8e8e8"
+    }
+  }, [_c('refresh', {
+    staticClass: ["refresh"],
+    attrs: {
+      "display": _vm.refreshing ? 'show' : 'hide'
+    },
+    on: {
+      "refresh": _vm.onrefresh
+    }
+  }, [_c('text', {
+    staticClass: ["indicator-text"]
+  }, [_vm._v("Refreshing ...")]), _c('loading-indicator', {
+    staticClass: ["indicator"]
+  })]), _c('homeTopView'), _c('home-middle-view'), _c('homeMiddleBottomView'), _c('homeShopCenter'), _c('homeHotChannel'), _c('homeGuessYouLike')], 1)])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["locationContainer"]

@@ -22,25 +22,25 @@
             </div>
         </div>
         <!--列表-->
-        <!--<scroller style="background-color: #e8e8e8">-->
-            <!--<refresh class="refresh" @refresh="onrefresh" :display="refreshing ? 'show' : 'hide'">-->
-                <!--<text class="indicator-text">Refreshing ...</text>-->
-                <!--<loading-indicator class="indicator"></loading-indicator>-->
-            <!--</refresh>-->
+        <scroller style="background-color: #e8e8e8">
+            <refresh class="refresh" @refresh="onrefresh" :display="refreshing ? 'show' : 'hide'">
+                <text class="indicator-text">Refreshing ...</text>
+                <loading-indicator class="indicator"></loading-indicator>
+            </refresh>
 
-            <!--&lt;!&ndash;头部的View&ndash;&gt;-->
-            <!--<homeTopView></homeTopView>-->
-            <!--&lt;!&ndash;中间view&ndash;&gt;-->
-            <!--<home-middle-view></home-middle-view>-->
-            <!--&lt;!&ndash;中间下面view&ndash;&gt;-->
-            <!--<homeMiddleBottomView></homeMiddleBottomView>-->
-            <!--&lt;!&ndash;首页购物中心&ndash;&gt;-->
-            <!--<homeShopCenter></homeShopCenter>-->
-            <!--&lt;!&ndash;热门频道&ndash;&gt;-->
-            <!--<homeHotChannel></homeHotChannel>-->
-            <!--&lt;!&ndash;猜你喜欢&ndash;&gt;-->
-            <!--<homeGuessYouLike></homeGuessYouLike>-->
-        <!--</scroller>-->
+            <!--头部的View-->
+            <homeTopView></homeTopView>
+            <!--中间view-->
+            <home-middle-view></home-middle-view>
+            <!--中间下面view-->
+            <homeMiddleBottomView></homeMiddleBottomView>
+            <!--首页购物中心-->
+            <homeShopCenter></homeShopCenter>
+            <!--热门频道-->
+            <homeHotChannel></homeHotChannel>
+            <!--猜你喜欢-->
+            <homeGuessYouLike></homeGuessYouLike>
+        </scroller>
     </div>
 </template>
 
